@@ -8,10 +8,9 @@ namespace homework.Models
 {
     public class Order
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        
         public string OrderID { get; set; }
-        public string Date { get; set; }
-        public int DateTime { get; set; }
+        public DateTime Date { get; set; }
         public decimal Price { get; set; }
         public string Items { get; set; }
 

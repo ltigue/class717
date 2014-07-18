@@ -8,9 +8,9 @@ using System.Web;
 
 namespace homework.DAL
 {
-    public class OrderContext
+    public class OrderContext : DbContext
     {
-        public OrderContext() : base ("OrderContext")
+        public OrderContext() : base("OrderContext")
         {
 
         }
