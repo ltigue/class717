@@ -52,3 +52,4 @@ C:\Users\Grand\Documents\GitHub\class717\homework\homework\bin\Microsoft.Owin.Se
 C:\Users\Grand\Documents\GitHub\class717\homework\homework\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Grand\Documents\GitHub\class717\homework\homework\obj\Debug\homework.dll
 C:\Users\Grand\Documents\GitHub\class717\homework\homework\obj\Debug\homework.pdb
+C:\Users\Grand\Documents\GitHub\class717\homework\homework\obj\Debug\homework.csprojResolveAssemblyReference.cache

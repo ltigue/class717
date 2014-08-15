@@ -14,8 +14,8 @@ namespace homework.DAL
            
             var customers =new List<Customer>
             {
-                new Customer{FirstName="John", LastName="Jones"  },
-                new Customer{FirstName="Mary", LastName="Moore" }
+                new Customer{CustomerID="1", FirstName="John", LastName="Jones"  },
+                new Customer{CustomerID="2", FirstName="Mary", LastName="Moore" }
             };
                 customers.ForEach(c=> context.Customers.Add(c));
             context.SaveChanges();

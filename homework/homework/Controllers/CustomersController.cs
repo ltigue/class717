@@ -16,7 +16,7 @@ namespace homework.Controllers
         private OrderContext db = new OrderContext();
 
         // GET: Customers
-        public ViewResult Index()
+        public ActionResult Index()
         {
             return View(db.Customers.ToList());
         }
